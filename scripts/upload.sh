@@ -11,7 +11,6 @@ aws s3 sync dist/ s3://$S3_BUCKET/ --cache-control max-age=0,no-cache --delete
 WASM_FILE=$(ls dist/ | grep '.wasm$');
 npm run brotli dist/*.wasm
 BROTLI_FILE=$(ls dist/ | grep wasm.br);
-echo $BROTLI_FILE $WASM_FILE
 mv dist/$BROTLI_FILE dist/$WASM_FILE
 
 aws s3 cp dist/*.wasm s3://$S3_BUCKET/ \
