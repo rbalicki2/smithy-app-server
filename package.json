@@ -1,6 +1,6 @@
 {
   "name": "smithy-app-server",
-  "version": "0.1.0",
+  "version": "0.0.2",
   "description": "Build and deploy Smithy apps",
   "license": "BSD-3-Clause",
   "author": "Robert Balicki <robert.balicki@gmail.com>",
