@@ -1,7 +1,13 @@
 {
-  "name": "smithy_app_server",
+  "name": "smithy-app-server",
   "version": "0.1.0",
+  "description": "Build and deploy Smithy apps",
+  "license": "BSD-3-Clause",
   "author": "Robert Balicki <robert.balicki@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rbalicki2/smithy-app-server"
+  },
   "scripts": {
     "serve": "babel-node ./scripts/serve.js",
     "webpack": "rm -rf dist/ && webpack",
