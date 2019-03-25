@@ -1,5 +1,6 @@
 const wasm = import("target");
 
 wasm.then(module => {
-  module.start("app");
+  const rootEl = document.getElementById('app');
+  module.start(rootEl);
 });
