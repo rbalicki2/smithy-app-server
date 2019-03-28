@@ -86,6 +86,8 @@ js-sys = "0.3.5"
 "proc-macro2:0.4.27" = { git = "https://github.com/rbalicki2/smithy" }
 ```
 
+That last `[replace]` section is important and required!
+
 * The Makefile exposes `watch`, `build` and `build_prod` recipes.
 * The `src/lib.rs` file exposes a method named `start` as follows:
 
