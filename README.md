@@ -32,6 +32,8 @@ TARGET=../my-smithy-project/ npm run watch
 
 Don't forget to change `my-smithy-project` to the name of your project.
 
+Now, navigate to `localhost:8080`.
+
 ## Building and deploying
 
 Register an AWS S3 bucket, let's say `my-smithy-project`, and make sure `wasm-opt` is availabe in your `$PATH`.
