@@ -57,7 +57,8 @@ The easiest way to get a Smithy app up and running is to clone the starter proje
 
 ```sh
 # from ~
-git clone https://github.com/rbalicki2/smithy_starter
+git clone https://github.com/rbalicki2/smithy_router_example/
+# TODO actually make a starter project
 ```
 
 In order to build for production, `wasm-opt` (from the [`binaryen`](https://github.com/WebAssembly/binaryen) project) must be accessible in your `$PATH` variable. If it is located in a different location, pass the `WASM_OPT_LOCATION` environment variable. This is not required if you are just running your app locally.
