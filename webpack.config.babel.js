@@ -15,5 +15,5 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "index.js",
   },
-  mode: process.env.NODE_ENV,
+  mode: process.env.NODE_ENV || 'development',
 };
