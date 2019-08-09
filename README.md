@@ -1,5 +1,7 @@
 # `smithy-app-server`
 
+> **This repository has been deprecated in favor of [create-smithy-app](https://github.com/rbalicki2/create-smithy-app)!**
+
 This repository makes it easy to build, launch and deploy Smithy apps.
 
 Let's assume your Smithy project is in a folder called `~/my-smithy-project`, exposes a `pub fn start(root_element: web_sys::Element)` and has an appropriate `Makefile`. For a more complete discussion of the requirements, see [this section](smithy-app-requirements).
